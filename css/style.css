@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial" , sans-serif;
+    background-color: #f4f8fb;
+}
+
+header {
+    height: 350px;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    margin-top: 50px;
+    font-size: 43px;
+}
+
+header p {
+    margin-top: 25px;
+    font-size: 23px;
+}
+
+header .action-form {
+    padding: 10px 20px;
+    margin-top: 40px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+header .action-form:hover {
+    background-color: #0056b3;
+}
+
+.features {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.feature {
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+
+.feature:hover {
+    transform: scale(1.05);   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.feature h2 {
+    margin-top: 25px;
+}
+
+.feature p {
+    margin-top: 17px;
+    font-size: 17px;
+}
+
+footer {
+    height: 75px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
+}
